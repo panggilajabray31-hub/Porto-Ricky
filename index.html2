@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricky Thok | Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 25px;
+            border: 3px solid #0077b6;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #0077b6;
+        }
+
+        .header-text p {
+            margin: 5px 0;
+            font-size: 15px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #0077b6;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .contact a {
+            color: #0077b6;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <!-- CHANGE profile.jpg TO YOUR PHOTO FILE -->
+        <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+
+        <div class="header-text">
+            <h1>Ricky Thok</h1>
+            <p>Production Operator & Packing Staff</p>
+            <p>Taiping District, Taichung City</p>
+
+            <p class="contact">
+                📞 +886 916 514 667<br>
+                ✉️ panggilajabray31@gmail.com<br>
+                🎵 TikTok: 
+                <a href="https://www.tiktok.com/@rickythok668" target="_blank">
+                    @rickythok668
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Hand Grip Packing</li>
+            <li>Machine Operation (Hand Grip Production)</li>
+            <li>Quality Control Awareness</li>
+            <li>Teamwork & Time Management</li>
+        </ul>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="section">
+        <h2>Experience</h2>
+        <p><strong>Production Operator & Packing Staff – VP Component</strong></p>
+        <p>
+            I have work experience at VP Component as a Production Operator and Packing Staff. 
+            My responsibilities included packing hand grips, ensuring products were neatly packed, 
+            secure, and met company quality standards before distribution.
+        </p>
+        <p>
+            I also operated hand grip manufacturing machines, including material preparation, 
+            machine operation according to SOP, monitoring production processes, and maintaining 
+            product quality. I am accustomed to working with precision, cleanliness, and safety regulations.
+        </p>
+        <p>
+            This role strengthened my discipline, attention to detail, teamwork, and ability to work 
+            under production targets.
+        </p>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section">
+        <h2>Education</h2>
+        <p><strong>National Chin-Yi University of Technology</strong></p>
+        <p>Major: Information Technology</p>
+    </div>
+
+    <!-- AWARDS -->
+    <div class="section">
+        <h2>Awards & Achievements</h2>
+        <ul>
+            <li>TOCFL A1 Certificate</li>
+            <li>TikTok Content Creator</li>
+        </ul>
+    </div>
+
+    <!-- LANGUAGES -->
+    <div class="section">
+        <h2>Languages</h2>
+        <ul>
+            <li>Indonesian – Native</li>
+            <li>English – Intermediate</li>
+            <li>Arabic – Basic</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        © 2026 Ricky Thok | Online Resume
+    </div>
+
+</div>
+
+</body>
+</html>
